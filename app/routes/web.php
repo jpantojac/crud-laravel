@@ -17,4 +17,4 @@ Route::get('/', function () {
 Route::resource('products','ProductController');
 Route::resource('helicopters','HelicopterController');
 
-Route::resource('apiproducts','API\ProductController');
+Route::resource('apiproducts','API\APIProductController');
